@@ -1,8 +1,8 @@
-#Dakota Sicher
-#Operating Systems 
-#Assignment #2 
+Dakota Sicher
+Operating Systems 
+Assignment #2 
 
-#Banker's Algorithm 
+Banker's Algorithm 
 
 compile: g++ banker.cpp -o banker 
 
