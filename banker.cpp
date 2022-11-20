@@ -48,7 +48,7 @@ int main(){
 
 
     int i=0;
-    int p_rem = p_count; 
+    int p_rem = p_count; // 
     int last_ex = -1;
     int* ex_ord = new int[p_count]; //storing the execution order
 
@@ -68,8 +68,8 @@ int main(){
                     avail[k] = avail[k] + p_aloc[i][k]; //deallocate resources
                     p_aloc[i][k] = 0;
                 }
-                ex_ord[p_count-p_rem] = i;
-                --p_rem;
+                ex_ord[p_count-p_rem] = i;  //add process to the execution order
+                --p_rem;                    // decriment our processes remaining
                 std::cout<<"Process " << i << " executes.\n";
                 print_state(avail,p_aloc,p_need,r_count,p_count,finish);
             }
