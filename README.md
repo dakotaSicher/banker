@@ -14,7 +14,7 @@ line2: the total amount of each type of resource separated by a space
 line3: the number of processes line4: alocated amounts of each resource and the max of each resources for process 0, each separated by a space 
 each line after is same as line 4 for each additional process
 
-In implimented the banker's algorithm I decided to use dynamic multi arrays to allow for variable amounts of resources and process to be used as input states.
+In implimenting the banker's algorithm I decided to use dynamic multi arrays to allow for variable amounts of resources and process to be used as input states.
 The program first reads in from the file based on the formating above to determine the size of the multi arrays needed and then populates the arrays accordingly.
 
 The program then evaluates the processes in order, evaluating each one to see if the available resources meet the maximum demand or that that process might require.
